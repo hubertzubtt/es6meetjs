@@ -7,6 +7,8 @@ function Klasa() {
 }
 
 function LepszaKlasa() {
+    var _this = 55;
+    
 	this.ciagznakow = "Hello";
     this.wartosci = [1, 2, 3];
     this.wartosci.forEach((cyferka) => {
