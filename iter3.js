@@ -14,5 +14,5 @@ var iterowalny = {
 };
 
 for (var x of iterowalny) {
-    console.log(x);
+    console.log(x); // 2, 4, 8, 16
 }

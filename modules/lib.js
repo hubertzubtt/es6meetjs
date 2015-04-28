@@ -2,7 +2,7 @@ var modul = {
 	metoda() {
 		return "halo";
 	},
-	zmienna: 4
+	zmienna: 123
 };
 
 export default modul;

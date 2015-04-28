@@ -8,13 +8,14 @@ var pobierz = function(url) {
         xhr.onError = function(error) {
             reject(error);
         };
+        xhr.get();
     });
 }
 
 pobierz('http://server.com/data.json')
-.then(function(data) {
-    console.log("Dostalem dane: ", data);
-})
-.catch(function(error) {
-    console.log("Dostalem blad: ", error);
-});
+    .then(function(data) {
+        console.log("Dostalem dane: ", data);
+    })
+    .catch(function(error) {
+        console.log("Dostalem blad: ", error);
+    });

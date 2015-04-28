@@ -9,7 +9,7 @@ var pobierz = function(url) {
     xhr.onError = function(error) {
         deferred.reject(error);
     };
-
+    xhr.get();
     return deferred.promise;
 }
 

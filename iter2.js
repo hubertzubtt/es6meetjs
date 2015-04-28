@@ -11,8 +11,12 @@ var iterowalny = () => {
 	}
 }();
 
-console.log(iterowalny.next()); // Object {value: 2, done: false}
+/*console.log(iterowalny.next()); // Object {value: 2, done: false}
 console.log(iterowalny.next()); // Object {value: 4, done: false}
 console.log(iterowalny.next()); // Object {value: 8, done: false}
 console.log(iterowalny.next()); // Object {value: 16, done: false}
 console.log(iterowalny.next()); // Object {value: 32, done: true}
+*/
+for (var x of iterowalny) {
+    console.log(x);
+}
